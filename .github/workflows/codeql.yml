@@ -27,7 +27,7 @@ jobs:
       uses: github/codeql-action/init@v3
       with:
         languages: ${{ matrix.language }}
-        packs: +advanced-security/misra-c-coding-standards-uncertified
+        packs: +advanced-security/autosar-cpp-coding-standards-uncertified
 
     - name: Autobuild
       uses: github/codeql-action/autobuild@v3
